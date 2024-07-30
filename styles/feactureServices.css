@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.spna1-feactures{
+margin-top: 10px;
+font-family: 'Raleway';
+font-weight: 700;
+color: #444;
+}
+.span2-feactures{
+    font-family: 'Raleway';
+    font-weight: 700;
+    color: #444;
+    }
+.Feacture-services-container{
+    position: relative;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 120px;
+    width: 100%;
+    height: 700px;
+    background-color:  #EFEFEF;
+}
+.Feacture-services-container::after{
+    z-index: 10;
+    position: absolute;
+    content: "";
+    left: 50%;
+  bottom: -40px;
+    border-left: 49vw solid  #EFEFEF;
+    border-bottom: 40px solid transparent;
+  }
+  .Feacture-services-container::before{
+    z-index: 10;
+    right: 50%;
+    bottom: -40px;
+    position: absolute;
+    content: "";
+    border-right: 49vw solid #EFEFEF ;
+    border-bottom: 40px solid  transparent;
+    
+  }
+  
+
+.title-feacture-services{
+    color: #323232;
+    font-size: 39px;
+    font-weight: 900;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+}
+
+.span-feacture-services{
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.all-card-text{
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.prime-card-content{
+    padding-right: 4%;
+    width: 68%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.second-card-content{
+    width: 32%;
+    height: 400px;
+}
+
+.cards-content{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards-feactures{
+    width: 220px;
+    height: 100%;
+    background-color: #EFEFEF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    border: solid 1px #45aaff;
+}
+.cards-feactures::before{
+    content: "";
+    color: transparent;
+    bottom: 0;
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    background-color: #45aaff;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+}
+.cards-feactures:hover::before{
+    color: white;
+    transition:  0.5s ease;
+    content: "MORE";
+    bottom: 0;
+    position: absolute;
+    width: 100px;
+    height:20px;
+    background-color: #45aaff;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+}
+
+.img-feactures{
+    width: 100px;
+    height: 100px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-content-below{
+    padding-top: 9px;
+    width: 100%;
+    height: 40%;
+}
+.text-content-below p{
+    width: auto;
+    font-size: 15px;
+    font-weight: 400;
+    font-family:  Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 80%;
+}
+.content-rectangle{
+    color: white;
+    display: flex;
+    width: 300px;
+    height: 38px;
+    background-color:#45aaff;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 38px;
+    height: 38px;
+    background-color: #0079de;
+    background-image: url("/img/i_pathology.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.checkout{
+font-size: 14px;
+font-family: raleway, Arial, Helvetica, sans-serif;
+margin-right: 5%;
+}
+
+.title-second-cards-container{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-second{
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    color: #323232;
+}
+
+.separador-second{
+    border-top:solid #323232 0.5px ;
+    width: 200px;
+    
+}
+
+.container-hours{
+    width: 100%;
+    height: auto;
+}
+
+.hours{
+    color: #323232;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+    border-top: solid #72707032 01px ;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 26px;
+    font-size: 14px;
+}
+
+
+.text{
+    font-size: 15px;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+
+@media (max-width:700px) {
+    .Feacture-services-container{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .all-card-text{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: auto;
+        flex-direction: column;
+        padding: 0;
+    }
+
+   
+    .prime-card-content{
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .cards-content{
+        display: flex;
+        justify-content: center;
+    }
+
+    .second-card-content{
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .text-content-below{
+        height: auto;
+        padding-top: 9px;
+    }
+}

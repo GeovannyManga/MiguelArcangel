@@ -1,0 +1,183 @@
+.div-cards-container{
+  margin-top: -30px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+  
+    display: grid;
+    grid-template-columns: repeat(5,1rf);
+    grid-template-rows: repeat(1,1rf);
+}
+
+
+.card1{
+    background-color: #088EFF;
+    grid-column: 1;
+    position: relative;
+
+}
+.card1::before{
+    content: "";
+    position: absolute;
+    top: -22px;
+    left:0;
+    border-top: 22px transparent solid;
+    border-left:22.2vw #088EFF solid;
+
+}
+.card1::after{
+    content: "";
+    position: absolute;
+    bottom: -22px;
+    left:0;
+    border-bottom: 22px transparent solid;
+    border-left: 22.2vw #088EFF solid;
+    z-index: 10;
+
+
+}
+
+.card2{
+   background-color: #269CFF;
+    grid-column: 2;
+    position: relative;
+}
+.card2::before{
+    content: "";
+    position: absolute;
+    top: -22px;
+    right: 0;
+    border-top: 22px transparent solid;
+    border-right:22.2vw #269CFF solid;
+
+}
+.card2::after{
+    content: "";
+    position: absolute;
+    bottom:-22px;
+    right: 0;
+    border-bottom: 22px transparent solid;
+    border-right:22.2vw #269CFF solid;
+    z-index: 10;
+}
+
+.card3{
+    background-color: #45AAFF;
+    grid-column: 3;
+    position: relative;
+}
+.card3::before{
+    content: "";
+    position: absolute;
+    top: -22px;
+    left: 0;
+    border-top: 22px transparent solid;
+    border-left: 22.2vw #45AAFF solid;
+}
+.card3::after{
+    content: "";
+    position: absolute;
+    bottom: -22px;
+    left:0;
+    border-bottom: 22px transparent solid;
+    border-left: 22.2vw #45AAFF solid;
+    z-index: 10;
+}
+.card4{
+    background-color: #64B8FF;
+    grid-column: 4;
+    position: relative;
+}
+
+.card4::before{
+    content: "";
+    position: absolute;
+    top: -22px;
+    right: 0;
+    border-top: 22px transparent solid;
+    border-right:22.2vw #64B8FF solid;
+
+}
+.card4::after{
+    content: "";
+    position: absolute;
+    bottom:-22px;
+    right: 0;
+    border-bottom: 22px transparent solid;
+    border-right:22.2vw #64B8FF solid;
+    z-index: 10;
+}
+
+.card1, .card2, .card3, .card4{
+    text-decoration: none;
+    color: #EFEFEF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text1{
+    color:#EFEFEF;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.text2{
+    color: #EFEFEF;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+@media (max-width: 1155px) {
+    .card1::after, .card2::after, .card3::after, .card4::after,
+    .card1::before, .card2::before, .card3::before, .card4::before {
+      display: none; /* Ocultar los pseudo-elementos */
+      /* content: ""; */ /* No es necesario si usas display: none; */
+    }
+    .div-cards-container{
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        padding: 0;
+        margin: 0;
+
+    }
+    .card1{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        grid-column: 1;
+        grid-row: 1;
+        height: 200px;
+    }
+    .card2{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        grid-column: 2;
+        grid-row: 1;
+        height: 200px;
+    }
+    .card3{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        grid-column: 1;
+        grid-row: 2;
+        height: 200px;
+    }
+    .card4{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        grid-column: 2;
+        grid-row: 2;
+        height: 200px;
+    }
+  }
+  
