@@ -2,9 +2,8 @@
 import TopBar from "../components/TopBar.jsx";
 import NavBar from "../components/NavBar.jsx";
 import Carrucel from "../components/Carrucel.jsx";
-import Cards from "../components/Cards.jsx";
+import Cards from "../components/cards.jsx";
 import SecctionWelcome from "../components/secctionWelcome.jsx";
-import {  } from "../styles/main.css";
 import MedicalDepartaments from "../components/MedicalDepartaments.jsx";
 import FeactureServices from "../components/FeactureServices.jsx";
 import PersonalPlan from "../components/PersonalPlan.jsx";

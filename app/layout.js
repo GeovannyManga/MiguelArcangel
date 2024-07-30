@@ -6,7 +6,6 @@ export const metadata = {
   }
   
 }
-import {  } from "../styles/main.css";
 
 export default function RootLayout({ children }) {
  return (

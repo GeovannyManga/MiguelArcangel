@@ -1,0 +1,261 @@
+/* FeactureServices.module.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.spna1Feactures {
+    margin-top: 10px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    color: #444;
+}
+
+.span2Feactures {
+    font-family: 'Raleway';
+    font-weight: 700;
+    color: #444;
+}
+
+.feactureServicesContainer {
+    position: relative;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 120px;
+    width: 100%;
+    height: 700px;
+    background-color: #EFEFEF;
+}
+
+.feactureServicesContainer::after {
+    z-index: 10;
+    position: absolute;
+    content: "";
+    left: 50%;
+    bottom: -40px;
+    border-left: 49vw solid #EFEFEF;
+    border-bottom: 40px solid transparent;
+}
+
+.feactureServicesContainer::before {
+    z-index: 10;
+    right: 50%;
+    bottom: -40px;
+    position: absolute;
+    content: "";
+    border-right: 49vw solid #EFEFEF;
+    border-bottom: 40px solid transparent;
+}
+
+.titleFeactureServices {
+    color: #323232;
+    font-size: 39px;
+    font-weight: 900;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+.spanFeactureServices {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.allCardText {
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.primeCardContent {
+    padding-right: 4%;
+    width: 68%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.secondCardContent {
+    width: 32%;
+    height: 400px;
+}
+
+.cardsContent {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardsFeactures {
+    width: 220px;
+    height: 100%;
+    background-color: #EFEFEF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    border: solid 1px #45aaff;
+}
+
+.cardsFeactures::before {
+    content: "";
+    color: transparent;
+    bottom: 0;
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    background-color: #45aaff;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+}
+
+.cardsFeactures:hover::before {
+    color: white;
+    transition: 0.5s ease;
+    content: "MORE";
+    bottom: 0;
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: #45aaff;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+}
+
+.imgFeactures {
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textContentBelow {
+    padding-top: 9px;
+    width: 100%;
+    height: 40%;
+}
+
+.textContentBelow p {
+    width: auto;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 80%;
+}
+
+.contentRectangle {
+    color: white;
+    display: flex;
+    width: 300px;
+    height: 38px;
+    background-color: #45aaff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 38px;
+    height: 38px;
+    background-color: #0079de;
+    background-image: url("/img/i_pathology.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.checkout {
+    font-size: 14px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    margin-right: 5%;
+}
+
+.titleSecondCardsContainer {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titleSecond {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    color: #323232;
+}
+
+.separadorSecond {
+    border-top: solid #323232 0.5px;
+    width: 200px;
+}
+
+.containerHours {
+    width: 100%;
+    height: auto;
+}
+
+.hours {
+    color: #323232;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+    border-top: solid #72707032 01px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 26px;
+    font-size: 14px;
+}
+
+.text {
+    font-size: 15px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+@media (max-width: 700px) {
+    .feactureServicesContainer {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .allCardText {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: auto;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .primeCardContent {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .cardsContent {
+        display: flex;
+        justify-content: center;
+    }
+
+    .secondCardContent {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .textContentBelow {
+        height: auto;
+        padding-top: 9px;
+    }
+}
