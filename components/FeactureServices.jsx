@@ -1,5 +1,5 @@
 'use client';
-import styles from "../styles/FeactureServices.module.css";
+import styles from "../styles/feactureServices.module.css";
 import Image from "next/image";
 
 const FeactureServices = () => {

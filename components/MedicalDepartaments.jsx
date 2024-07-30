@@ -1,5 +1,5 @@
 'use client';
-import styles from '../styles/MedicalDepartaments.module.css';
+import styles from '../styles/medicalDepartaments.module.css';
 import Image from 'next/image';
 
 const MedicalDepartaments = () => {
