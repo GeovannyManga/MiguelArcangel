@@ -1,8 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: {
-        domains: ['healthflex.plethorathemes.com'], // Agrega aquí tu dominio
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'healthflex.plethorathemes.com',
       },
+    ],
+  },
+  reactStrictMode: true,
 };
 
 export default nextConfig;
