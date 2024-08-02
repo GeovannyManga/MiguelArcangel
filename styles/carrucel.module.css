@@ -121,24 +121,44 @@
         height: auto;
         margin-left: auto;
         margin-right: auto;
+        top: 30%;
         animation: lock 20s infinite;
     }
 
     @keyframes lock {
-        0% { transform: translateY(120%); opacity: 0; display: block; }
+        0% { transform: translateY(100%); opacity: 0; display: block; }
         44% { transform: translateX(-5%); opacity: 1; display: block; }
         60% { transform: translateX(5%); opacity: 1; display: block; }
         70% { transform: translateX(-10%); opacity: 1; display: block; }
         80% { transform: translateX(5%); opacity: 1; display: block; }
-        100% { transform: translateY(120%); opacity: 0; display: block; }
+        100% { transform: translateY(100%); opacity: 0; display: block; }
     }
 
     .divCarrucelContainer {
-        height: 89vh;
-        padding-top: 12vh;
+        height: 64vh;
+        padding-top: 6vh;
     }
 
     .imgCarrucel {
-        height: 77vh;
+        height: 58vh;
+    }
+}
+
+@media (max-height: 800px) and (max-width: 700px) {
+    .titlePublish{
+        font-size: 30px;
+    }
+    .subtitlePublish{
+        font-size: 20px
+    }
+    .pPublish{
+        font-size: small;
+    }
+    
+}
+
+@media (max-width: 1025px) and (min-width: 500px){
+    .imgCarrucel{
+        height: 81vh;
     }
 }

@@ -23,7 +23,7 @@
     display: flex;
     position: relative;
     top: -76px;
-    width: 460px;
+    width: 540px;
     height: 76px;
     color: #323232;
     align-items: center;
@@ -126,7 +126,7 @@
     }
 
     .esquina {
-        width: 98%;
+        width: 100%;
     }
 
     .title {

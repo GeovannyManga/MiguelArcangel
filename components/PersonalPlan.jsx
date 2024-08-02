@@ -11,7 +11,7 @@ const PersonalPlan =()=> {
       <span className="span-personalPlan" >Llame Ahora +57 (321)5937410 y reciba Atención Médica de Primera Calidad para usted y su Familia</span>
       <div className="boton-plan">
         <div className="cuadro-personalPlan"></div>
-        <a href="" className="reques-plan">SOLICITAR PLAN</a>
+        <a href="https://wa.me/573215937410" className="reques-plan">SOLICITAR PLAN</a>
       </div>
      </div>
      

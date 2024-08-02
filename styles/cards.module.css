@@ -51,6 +51,7 @@
   .card2 {
     background-color: #269CFF;
     grid-column: 2;
+    text-align: center;
   }
   
   .card2::before {

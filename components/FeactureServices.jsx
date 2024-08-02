@@ -14,7 +14,7 @@ const FeactureServices = () => {
       <div className={styles.allCardText}>
         <div className={styles.primeCardContent}>
           <div className={styles.cardsContent}>
-            <div className={styles.cardsFeactures}>
+            <a href="https://wa.me/573215937410" className={styles.cardsFeactures}>
               <Image
                 className={styles.imgFeactures}
                 src="https://healthflex.plethorathemes.com/wp-content/uploads/2015/09/strive-test.png"
@@ -24,8 +24,8 @@ const FeactureServices = () => {
               />
               <span className={styles.spna1Feactures}>EXÁMENS</span>
               <span className={styles.span2Feactures}>Certifica tu salud</span>
-            </div>
-            <div className={styles.cardsFeactures}>
+            </a>
+            <a href="https://wa.me/573215937410" className={styles.cardsFeactures}>
               <Image
                 className={styles.imgFeactures}
                 src="https://healthflex.plethorathemes.com/wp-content/uploads/2015/09/strive-cardiology.png"
@@ -35,8 +35,8 @@ const FeactureServices = () => {
               />
               <span className={styles.spna1Feactures}>CONSULTAS</span>
               <span className={styles.span2Feactures}>Para tu bienestar</span>
-            </div>
-            <div className={styles.cardsFeactures}>
+            </a>
+            <a href="https://wa.me/573215937410" className={styles.cardsFeactures}>
               <Image
                 className={styles.imgFeactures}
                 src="https://healthflex.plethorathemes.com/wp-content/uploads/2015/09/strive-dna.png"
@@ -46,7 +46,7 @@ const FeactureServices = () => {
               />
               <span className={styles.spna1Feactures}>CITOLOGIA</span>
               <span className={styles.span2Feactures}>Diagnostica</span>
-            </div>
+            </a>
           </div>
           <div className={styles.textContentBelow}>
             <p>
