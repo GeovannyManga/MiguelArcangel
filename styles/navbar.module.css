@@ -91,6 +91,10 @@
     display: none;
   }
 
+  .navLink{
+    height: auto;
+  }
+
   .ulNavbar2 {
     flex-direction: column;
     position: absolute;
