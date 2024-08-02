@@ -81,7 +81,7 @@ export default function NavBar() {
         <li className={styles.ulNavbar2Item}><a className={styles.navLink} href="/services">SERVICIOS</a></li>
         <li className={styles.ulNavbar2Item}><a className={styles.navLink} href="/team">EQUIPO</a></li>
         <li className={styles.ulNavbar2Item}><a className={styles.navLink} href="/about">SOBRE NOSOTROS</a></li>
-        <li className={styles.ulNavbar2Item}><a className={styles.navLink} href="/contact">CONTACTANOS</a></li>
+        <li className={styles.ulNavbar2Item}><a className={styles.navLink} href="/https://wa.me/573215937410">CONTACTANOS</a></li>
       </ul>
     </nav>
   );
