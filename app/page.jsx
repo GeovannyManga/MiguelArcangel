@@ -8,7 +8,6 @@ import MedicalDepartaments from "../components/MedicalDepartaments.jsx";
 import FeactureServices from "../components/FeactureServices.jsx";
 import PersonalPlan from "../components/PersonalPlan.jsx";
 import Footer from "../components/Footer.jsx";
-import {  } from "../styles/styles.css";
 
 
 export default function HomePage() {

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import "../styles/navbar.css";
+import styles from "../styles/navbar.module.css";
 
 export default function NavBar() {
   const [isTopBarVisible, setIsTopBarVisible] = useState(true);
@@ -16,10 +16,14 @@ export default function NavBar() {
 
   useEffect(() => {
     const handleScreenResize = () => {
-      const elemento = document.getElementById("list2");
-      if (window.innerWidth > 1055 && elemento) {
-        elemento.style.display = "none";
+      const listElement = document.getElementById("list");
+      const list2Element = document.getElementById("list2");
+      if (window.innerWidth > 1055 && listElement && list2Element) {
+        listElement.style.display = "flex";
+        list2Element.style.display = "none";
         setCliker(false);
+      } else if (window.innerWidth <= 1055 && listElement) {
+        listElement.style.display = "none";
       }
     };
 
@@ -51,53 +55,33 @@ export default function NavBar() {
   }, []);
 
   return (
-    <nav className={`nav-container-navbar ${isTopBarVisible ? "" : "scrolled"}`}>
-      <div className="div-container-content-nav">
-        <h1 className="img-logo">
+    <nav className={`${styles.navContainerNavbar} ${isTopBarVisible ? "" : styles.scrolled}`}>
+      <div className={styles.divContainerContentNav}>
+        <h1 className={styles.imgLogo}>
           MIGUEL <span>ARCANGEL</span>
         </h1>
         <Image
           onClick={toogleMenu}
-          className="menu"
+          className={styles.menu}
           src="/img/menu.png"
           alt="menu"
           width={40}
           height={40}
         />
-        <ul id="list" className="ul-navbar">
-          <a className="li" href="/">
-            <li>HOME</li>
-          </a>
-          <a className="li" href="/services">
-            <li>SERVICIOS</li>
-          </a>
-          <a className="li" href="/team">
-            <li>EQUIPO</li>
-          </a>
-          <a className="li" href="/about">
-            <li>SOBRE NOSOTROS</li>
-          </a>
-          <a className="li" href="https://wa.me/573215937410" target="_blank" >
-            <li>CONTACTANOS</li>
-          </a>
+        <ul id="list" className={styles.ulNavbar}>
+          <li className={styles.ulNavbarItem}><a className={styles.navLink} href="/">HOME</a></li>
+          <li className={styles.ulNavbarItem}><a className={styles.navLink} href="/services">SERVICIOS</a></li>
+          <li className={styles.ulNavbarItem}><a className={styles.navLink} href="/team">EQUIPO</a></li>
+          <li className={styles.ulNavbarItem}><a className={styles.navLink} href="/about">SOBRE NOSOTROS</a></li>
+          <li className={styles.ulNavbarItem}><a className={styles.navLink} href="https://wa.me/573215937410" target="_blank" rel="noopener noreferrer">CONTACTANOS</a></li>
         </ul>
       </div>
-      <ul id="list2" className="ul-navbar2">
-        <a className="li2" href="/">
-          <li>HOME</li>
-        </a>
-        <a className="li2" href="/services">
-          <li>SERVICIOS</li>
-        </a>
-        <a className="li2" href="/team">
-          <li>EQUIPO</li>
-        </a>
-        <a className="li2" href="/about">
-          <li>SOBRE NOSOTROS</li>
-        </a>
-        <a className="li2" href="/contact">
-          <li>CONTACTANOS</li>
-        </a>
+      <ul id="list2" className={styles.ulNavbar2} style={{ display: 'none' }}>
+        <li className={styles.ulNavbar2Item}><a className={styles.navLink} href="/">HOME</a></li>
+        <li className={styles.ulNavbar2Item}><a className={styles.navLink} href="/services">SERVICIOS</a></li>
+        <li className={styles.ulNavbar2Item}><a className={styles.navLink} href="/team">EQUIPO</a></li>
+        <li className={styles.ulNavbar2Item}><a className={styles.navLink} href="/about">SOBRE NOSOTROS</a></li>
+        <li className={styles.ulNavbar2Item}><a className={styles.navLink} href="/contact">CONTACTANOS</a></li>
       </ul>
     </nav>
   );

@@ -9,7 +9,7 @@ const MedicalDepartaments = () => {
       <span className={styles.subTitleMedical}>La Base de Nuestra Clinica</span>
       <div className={styles.containerCardTextMedical}>
         <div className={styles.divContainerCardsMedical}>
-          <div className={styles.cardsMedical}>
+          <a href='/services' className={styles.cardsMedical}>
             <Image
               className={styles.imgMedical}
               src="/img/psicologia.jpg"
@@ -19,8 +19,8 @@ const MedicalDepartaments = () => {
             />
             <span className={styles.span1Medical}>PSICOLOGIA</span>
             <span className={styles.span2Medical}>Apoyo Emocional y Bienestar Mental</span>
-          </div>
-          <div className={styles.cardsMedical}>
+          </a>
+          <a href='/services' className={styles.cardsMedical}>
             <Image
               className={styles.imgMedical}
               src="/img/fonoaudiologia.jpg"
@@ -30,8 +30,8 @@ const MedicalDepartaments = () => {
             />
             <span className={styles.span1Medical}>FONOAUDIOLOGIA</span>
             <span className={styles.span2Medical}>Mejora de la Comunicación</span>
-          </div>
-          <div className={styles.cardsMedical}>
+          </a>
+          <a href='/services' className={styles.cardsMedical}>
             <Image
               className={styles.imgMedical}
               src="/img/terapia.jpg"
@@ -41,9 +41,9 @@ const MedicalDepartaments = () => {
             />
             <span className={styles.span1Medical}>TERAPIA OCUPACIONAL</span>
             <span className={styles.span2Medical}>Mejorando la Vida con Actividad</span>
-          </div>
+          </a>
         </div>
-        <div>
+        <div className={styles.prince}>
           <div className={styles.lineContentMedical}>
             <h6 className={styles.titleMedicalH6}>INSTALACIONES MODERNAS</h6>
             <div className={styles.lineMedical}></div>
