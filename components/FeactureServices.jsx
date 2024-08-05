@@ -22,7 +22,7 @@ const FeactureServices = () => {
                 width={120}
                 height={140}
               />
-              <span className={styles.spna1Feactures}>EXÁMENS</span>
+              <span className={styles.spna1Feactures}>EXÁMENES</span>
               <span className={styles.span2Feactures}>Certifica tu salud</span>
             </a>
             <a href="https://wa.me/573215937410" className={styles.cardsFeactures}>
@@ -52,10 +52,10 @@ const FeactureServices = () => {
             <p>
               En la IPS Miguel Arcángel, ofrecemos una amplia gama de servicios médicos para garantizar tu salud y bienestar. Nuestro equipo de médicos expertos y personal clínico dedicado se comprometen a brindar una atención excepcional. Cuando visitas cualquiera de nuestras ubicaciones, puedes esperar una atención personalizada y servicios médicos de alta calidad.
             </p>
-            <div className={styles.contentRectangle}>
+            <a href="/services" className={styles.contentRectangle}>
               <div className={styles.logo}></div>
-              <span className={styles.checkout}>VISITA TODOS NUESTROS SERVICIOS</span>
-            </div>
+              <span className={styles.checkout}>IR A SERVICIOS</span>
+            </a>
           </div>
         </div>
         <div className={styles.secondCardContent}>
