@@ -1,4 +1,7 @@
 User-agent: *
+Allow: /services/
+Allow: /team/
+Allow: /about/
 Allow: /
 
 Sitemap: https://ipsmiguelarcangel.com/sitemap.xml
