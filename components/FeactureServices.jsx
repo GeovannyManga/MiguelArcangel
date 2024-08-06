@@ -66,31 +66,31 @@ const FeactureServices = () => {
           <div className={styles.containerHours}>
             <div className={styles.hours}>
               <span className={styles.day}>LUNES</span>
-              <span className={styles.hour}>08:00AM-06:00PM</span>
+              <span className={styles.hour}>8AM-12PM-2PM-6PM</span>
             </div>
             <div className={styles.hours}>
               <span className={styles.day}>MARTES</span>
-              <span className={styles.hour}>08:00AM-06:00PM</span>
+              <span className={styles.hour}>8AM-12PM-2PM-6PM</span>
             </div>
             <div className={styles.hours}>
               <span className={styles.day}>MIERCOLES</span>
-              <span className={styles.hour}>08:00AM-06:00PM</span>
+              <span className={styles.hour}>8AM-12PM-2PM-6PM</span>
             </div>
             <div className={styles.hours}>
               <span className={styles.day}>JUEVES</span>
-              <span className={styles.hour}>08:00AM-06:00PM</span>
+              <span className={styles.hour}>8AM-12PM-2PM-6PM</span>
             </div>
             <div className={styles.hours}>
               <span className={styles.day}>VIERNES</span>
-              <span className={styles.hour}>08:00AM-06:00PM</span>
+              <span className={styles.hour}>8AM-12PM-2PM-6PM</span>
             </div>
             <div className={styles.hours}>
               <span className={styles.day}>SABADO</span>
-              <span className={styles.hour}>08:00AM-02:00PM</span>
+              <span className={styles.hour}>8AM-12PM</span>
             </div>
           </div>
           <div className={styles.titleSecondCardsContainer}>
-            <span className={styles.titleSecond}>INSURANCE</span>
+            <span className={styles.titleSecond}>GARANÍA</span>
             <div className={styles.separadorSecond}></div>
           </div>
           <p className={styles.text}>
