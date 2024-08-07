@@ -1,0 +1,12 @@
+# Permitir a todos los motores de búsqueda acceder a todas las páginas del sitio
+User-agent: *
+Allow: /
+
+# No indexar la carpeta de administración
+Disallow: /admin/
+
+# No indexar el directorio de archivos temporales
+Disallow: /tmp/
+
+# Sitemap de tu sitio web
+Sitemap: https://ipsmiguelarcangel.com/sitemap.xml
