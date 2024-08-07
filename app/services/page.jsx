@@ -100,7 +100,7 @@ const Services = () => {
           height={200}
         />
         <div className={styles.contentText}>
-          <h6 className={styles.title}>MEDICINA GENERAL</h6>
+          <h6 className={styles.title}>MÉDICINA GENERAL</h6>
           <p className={styles.subtitle}>CONSULTA EXTERNA</p>
           <p className={styles.pText}>
           El servicio de Medicina General en Consulta Externa de la IPS Miguel Arcángel está orientado a proporcionar atención médica integral y preventiva a nuestros pacientes. Nuestros médicos generales ofrecen diagnósticos, tratamientos y seguimiento de diversas condiciones de salud, siempre con un enfoque holístico y centrado en el paciente. Estamos comprometidos con la promoción del bienestar y la prevención de enfermedades, brindando cuidados accesibles y de alta calidad en un ambiente acogedor y profesional.
@@ -122,7 +122,7 @@ const Services = () => {
           height={200}
         />
         <div className={styles.contentText}>
-          <h6 className={styles.title}>MEDICINA INTERNA</h6>
+          <h6 className={styles.title}>MÉDICINA INTERNA</h6>
           <p className={styles.subtitle}>CONSULTA EXTERNA</p>
           <p className={styles.pText}>
           El servicio de Medicina Interna en Consulta Externa de la IPS Miguel Arcángel se especializa en el diagnóstico y tratamiento de enfermedades complejas en pacientes adultos. Nuestros internistas, con amplia experiencia y conocimientos profundos, proporcionan una atención detallada y personalizada, abordando tanto enfermedades agudas como crónicas. Nos enfocamos en la prevención, el tratamiento integral y el manejo a largo plazo de las condiciones médicas, garantizando un cuidado de alta calidad en un entorno profesional y accesible.
@@ -144,7 +144,7 @@ const Services = () => {
           height={200}
         />
         <div className={styles.contentText}>
-          <h6 className={styles.title}>DERMATOLOGA</h6>
+          <h6 className={styles.title}>DERMATOLOGÍA</h6>
           <p className={styles.subtitle}>CONSULTA EXTERNA</p>
           <p className={styles.pText}>
           El servicio de Dermatología en la Consulta Externa de la IPS Miguel Arcángel ofrece atención especializada para el diagnóstico y tratamiento de enfermedades de la piel, cabello y uñas. Nuestro equipo de dermatólogos, altamente capacitado, utiliza tecnología avanzada y técnicas innovadoras para abordar una amplia gama de condiciones dermatológicas, desde problemas comunes hasta trastornos complejos. Nos comprometemos a proporcionar un cuidado personalizado y efectivo, siempre enfocándonos en la salud y el bienestar de nuestra comunidad.
@@ -166,7 +166,7 @@ const Services = () => {
           height={200}
         />
         <div className={styles.contentText}>
-          <h6 className={styles.title}>ENDOCRONOLOGIA</h6>
+          <h6 className={styles.title}>ENDOCRINOLOGÍA</h6>
           <p className={styles.subtitle}>CONSULTA EXTERNA</p>
           <p className={styles.pText}>
           El servicio de Endocrinología en la Consulta Externa de la IPS Miguel Arcángel se dedica al diagnóstico y tratamiento de trastornos hormonales y metabólicos. Nuestros endocrinólogos, expertos en su campo, brindan atención integral para condiciones como diabetes, enfermedades tiroideas, trastornos del metabolismo y más. Con un enfoque en la prevención y el manejo a largo plazo, utilizamos tecnología avanzada y conocimientos actualizados para ofrecer un cuidado personalizado y de alta calidad, siempre centrado en el bienestar de nuestros pacientes.
@@ -188,7 +188,7 @@ const Services = () => {
           height={200}
         />
         <div className={styles.contentText}>
-          <h6 className={styles.title}>FISIATRIA</h6>
+          <h6 className={styles.title}>FISIATRÍA</h6>
           <p className={styles.subtitle}>CONSULTA EXTERNA</p>
           <p className={styles.pText}>
           El servicio de Fisiatría en la Consulta Externa de la IPS Miguel Arcángel se enfoca en la rehabilitación y recuperación funcional de pacientes con discapacidades físicas. Nuestros fisiatras, expertos en medicina física y rehabilitación, trabajan en conjunto con un equipo multidisciplinario para diseñar planes de tratamiento personalizados que incluyen terapias físicas, ocupacionales y ejercicios terapéuticos. Nos dedicamos a mejorar la calidad de vida de nuestros pacientes, promoviendo su independencia y bienestar a través de cuidados integrales y compasivos.
@@ -210,7 +210,7 @@ const Services = () => {
           height={200}
         />
         <div className={styles.contentText}>
-          <h6 className={styles.title}>PSIQUIATRIA</h6>
+          <h6 className={styles.title}>PSIQUIATRÍA</h6>
           <p className={styles.subtitle}>CONSULTA EXTERNA</p>
           <p className={styles.pText}>
           El servicio de Psiquiatría en la Consulta Externa de la IPS Miguel Arcángel ofrece atención especializada para la salud mental y el bienestar emocional. Nuestros psiquiatras, altamente calificados y experimentados, proporcionan diagnóstico, tratamiento y seguimiento para una amplia gama de trastornos mentales, incluyendo depresión, ansiedad, trastornos bipolares y esquizofrenia. Con un enfoque integral y personalizado, nos comprometemos a apoyar a nuestros pacientes en su camino hacia la recuperación, brindando un entorno seguro y empático para su cuidado.
@@ -232,7 +232,7 @@ const Services = () => {
           height={200}
         />
         <div className={styles.contentText}>
-          <h6 className={styles.title}>NEUROLOGIA PEDIATRICA</h6>
+          <h6 className={styles.title}>NEUROLOGÍA PEDIÁTRICA</h6>
           <p className={styles.subtitle}>CONSULTA EXTERNA</p>
           <p className={styles.pText}>
           El servicio de Neurología Pediátrica en la Consulta Externa de la IPS Miguel Arcángel está dedicado al diagnóstico y tratamiento de trastornos neurológicos en niños y adolescentes. Nuestros especialistas en neurología pediátrica cuentan con amplia experiencia en el manejo de condiciones como epilepsia, trastornos del desarrollo, migrañas y enfermedades neuromusculares. Trabajamos en estrecha colaboración con las familias para proporcionar una atención integral y personalizada, enfocándonos en mejorar la calidad de vida y el bienestar de nuestros jóvenes pacientes en un entorno acogedor y comprensivo.
@@ -254,7 +254,7 @@ const Services = () => {
           height={200}
         />
         <div className={styles.contentText}>
-          <h6 className={styles.title}>REUMOLOGIA</h6>
+          <h6 className={styles.title}>REUMOLOGÍA</h6>
           <p className={styles.subtitle}>CONSULTA EXTERNA</p>
           <p className={styles.pText}>
           El servicio de Reumatología en la Consulta Externa de la IPS Miguel Arcángel está especializado en el diagnóstico y tratamiento de enfermedades reumáticas que afectan las articulaciones, músculos y tejidos conectivos. Nuestros reumatólogos, con experiencia en el manejo de condiciones como artritis, lupus y fibromialgia, ofrecen un enfoque integral y personalizado para cada paciente. Utilizamos técnicas avanzadas y estrategias de tratamiento innovadoras para aliviar el dolor, mejorar la movilidad y promover la calidad de vida, siempre en un entorno profesional y empático.
@@ -276,7 +276,7 @@ const Services = () => {
           height={200}
         />
         <div className={styles.contentText}>
-          <h6 className={styles.title}>OTORRINOLARINGOLOGIA</h6>
+          <h6 className={styles.title}>OTORRINOLARINGOLOGÍA</h6>
           <p className={styles.subtitle}>CONSULTA EXTERNA</p>
           <p className={styles.pText}>
           El servicio de Otorrinolaringología en la Consulta Externa de la IPS Miguel Arcángel se especializa en el diagnóstico y tratamiento de enfermedades y trastornos de los oídos, nariz y garganta. Nuestros otorrinolaringólogos brindan atención integral para una variedad de condiciones, incluyendo infecciones del oído, sinusitis, trastornos de la voz y problemas de deglución. Utilizando tecnología avanzada y enfoques terapéuticos actualizados, nos comprometemos a proporcionar un cuidado personalizado y efectivo, con el objetivo de mejorar la salud y el bienestar de nuestros pacientes en un entorno profesional y accesible.
@@ -298,7 +298,7 @@ const Services = () => {
           height={200}
         />
         <div className={styles.contentText}>
-          <h6 className={styles.title}>NUTRICION Y DIETETICA</h6>
+          <h6 className={styles.title}>NUTRICIÓN Y DIETÉTICA</h6>
           <p className={styles.subtitle}>CONSULTA EXTERNA</p>
           <p className={styles.pText}>
           El servicio de Nutrición y Dietética en la Consulta Externa de la IPS Miguel Arcángel está dedicado a ofrecer asesoramiento y planificación personalizada para mejorar la salud a través de la alimentación. Nuestros nutricionistas y dietistas trabajan con los pacientes para desarrollar planes dietéticos adaptados a sus necesidades individuales, ya sea para manejar enfermedades crónicas, optimizar el rendimiento deportivo o promover una alimentación saludable. Con un enfoque basado en la evidencia y un compromiso con la educación continua, nos esforzamos por apoyar a nuestros pacientes en la consecución de sus objetivos de salud y bienestar mediante una nutrición adecuada y equilibrada.
@@ -320,7 +320,7 @@ const Services = () => {
           height={200}
         />
         <div className={styles.contentText}>
-          <h6 className={styles.title}>ODONTOLOGIA GENERAL</h6>
+          <h6 className={styles.title}>ODONTOLOGÍA GENERAL</h6>
           <p className={styles.subtitle}>CONSULTA EXTERNA</p>
           <p className={styles.pText}>
           El servicio de Odontología General en la IPS Miguel Arcángel proporciona atención dental integral para mantener la salud bucal óptima. Nuestros dentistas generales ofrecen una amplia gama de servicios, que incluyen exámenes dentales, limpiezas, tratamientos de caries, extracciones y restauraciones. Con un enfoque preventivo y personalizado, nos dedicamos a asegurar que cada paciente reciba el mejor cuidado posible en un entorno cómodo y profesional, promoviendo una buena salud dental y bienestar general.
@@ -342,7 +342,7 @@ const Services = () => {
           height={200}
         />
         <div className={styles.contentText}>
-          <h6 className={styles.title}>TOMA DE MUESTRAS DE LABORATORIO CLINICO</h6>
+          <h6 className={styles.title}>TOMA DE MUESTRAS DE LABORATORIO CLÍNICO</h6>
           <p className={styles.subtitle}>APOYO DIAGNOSTICO Y COMPLEMENTACION TERAPEUTICA</p>
           <p className={styles.pText}>
           El servicio de Toma de Muestras de Laboratorio Clínico en la IPS Miguel Arcángel está especializado en la recolección precisa y segura de muestras biológicas para análisis diagnósticos. Nuestro equipo de profesionales está capacitado para realizar venopunciones, recogida de muestras de orina, y otros procedimientos de manera eficiente y con el máximo cuidado. Nos enfocamos en garantizar la comodidad del paciente y la integridad de las muestras, colaborando estrechamente con el laboratorio para asegurar resultados precisos y oportunos que son fundamentales para el diagnóstico y seguimiento adecuado de la salud.
@@ -518,7 +518,7 @@ const Services = () => {
           height={200}
         />
         <div className={styles.contentText}>
-          <h6 className={styles.title}>ATENCION EN SALUD EN LA PRIMERA INFANCIA</h6>
+          <h6 className={styles.title}>ATENCIÓN EN SALUD EN LA PRIMERA INFANCIA</h6>
           <p className={styles.subtitle}>RUTAS DE ATENCION INTEGRAL</p>
           <p className={styles.pText}>
           El servicio de Atención en Salud en la Primera Infancia (de 7 días a 5 años, 11 meses y 29 días) en la IPS Miguel Arcángel está enfocado en proporcionar cuidados médicos especializados y preventivos para los niños en sus primeros años de vida. Nuestro equipo de profesionales ofrece exámenes de salud regulares, monitoreo del crecimiento y desarrollo, y vacunación, así como atención para enfermedades comunes y problemas de salud específicos de esta etapa. Nos comprometemos a apoyar el desarrollo óptimo de cada niño en un entorno seguro y adaptado a sus necesidades.
@@ -540,7 +540,7 @@ const Services = () => {
           height={200}
         />
         <div className={styles.contentText}>
-          <h6 className={styles.title}>ATENCION EN SALUD EN LA INFANCIA</h6>
+          <h6 className={styles.title}>ATENCIÓN EN SALUD EN LA INFANCIA</h6>
           <p className={styles.subtitle}>RUTAS DE ATENCION INTEGRAL</p>
           <p className={styles.pText}>
           El servicio de Atención en Salud en la Infancia (de 6 años a 11 meses y 29 días) en la IPS Miguel Arcángel está diseñado para ofrecer cuidados médicos integrales y preventivos a los niños en esta etapa crucial de desarrollo. Nuestro equipo brinda exámenes de salud regulares, monitoreo del crecimiento y desarrollo, y vacunaciones, así como atención para enfermedades comunes y problemas específicos. Nos enfocamos en asegurar que cada niño reciba el apoyo necesario para su bienestar físico y emocional en un entorno profesional y amigable.
@@ -562,7 +562,7 @@ const Services = () => {
           height={200}
         />
         <div className={styles.contentText}>
-          <h6 className={styles.title}>ATENCION EN SALUD EN LA ADOLECENCIA</h6>
+          <h6 className={styles.title}>ATENCIÓN EN SALUD EN LA ADOLECENCIA</h6>
           <p className={styles.subtitle}>RUTAS DE ATENCION INTEGRAL</p>
           <p className={styles.pText}>
           El servicio de Atención en Salud en la Adolescencia (de 12 años a 17 años, 11 meses y 29 días) en la IPS Miguel Arcángel ofrece cuidados médicos especializados para apoyar el desarrollo físico y emocional durante esta etapa de cambios significativos. Nuestro equipo proporciona exámenes de salud regulares, asesoramiento sobre prevención de enfermedades, y apoyo para problemas de salud específicos de la adolescencia. Nos enfocamos en fomentar hábitos saludables, abordar preocupaciones relacionadas con el crecimiento y desarrollo.
@@ -584,7 +584,7 @@ const Services = () => {
           height={200}
         />
         <div className={styles.contentText}>
-          <h6 className={styles.title}>ATENCION EN SALUD EN LA JUVENTUD</h6>
+          <h6 className={styles.title}>ATENCIÓN EN SALUD EN LA JUVENTUD</h6>
           <p className={styles.subtitle}>RUTAS DE ATENCION INTEGRAL</p>
           <p className={styles.pText}>
           El servicio de Atención en Salud en la Juventud (de 18 años a 28 años, 11 meses y 29 días) en la IPS Miguel Arcángel está orientado a proporcionar cuidados médicos integrales para apoyar el bienestar durante esta etapa de transición a la adultez. Ofrecemos exámenes de salud regulares, asesoramiento en prevención de enfermedades, y atención para problemas de salud específicos. Nos enfocamos en promover hábitos saludables, gestionar condiciones crónicas y apoyar el desarrollo físico y emocional en esta fase clave de la vida.
@@ -606,7 +606,7 @@ const Services = () => {
           height={200}
         />
         <div className={styles.contentText}>
-          <h6 className={styles.title}>ATENCION EN SALUD EN LA ADULTEZ</h6>
+          <h6 className={styles.title}>ATENCIÓN EN SALUD EN LA ADULTEZ</h6>
           <p className={styles.subtitle}>RUTAS DE ATENCION INTEGRAL</p>
           <p className={styles.pText}>
           El servicio de Atención en Salud en la Adultez (de 29 años a 59 años) en la IPS Miguel Arcángel se dedica a ofrecer cuidados médicos integrales para mantener y mejorar la salud a lo largo de esta etapa de la vida. Proporcionamos exámenes de salud regulares, prevención y manejo de enfermedades crónicas, y asesoramiento sobre hábitos saludables. Nuestro objetivo es apoyar el bienestar físico y emocional, abordar preocupaciones específicas de la edad adulta y ofrecer un enfoque personalizado para promover una vida saludable y activa.
@@ -628,7 +628,7 @@ const Services = () => {
           height={200}
         />
         <div className={styles.contentText}>
-          <h6 className={styles.title}>ATENCION EN SALUD EN LA VEJEZ</h6>
+          <h6 className={styles.title}>ATENCIÓN EN SALUD EN LA VEJEZ</h6>
           <p className={styles.subtitle}>RUTAS DE ATENCION INTEGRAL</p>
           <p className={styles.pText}>
           El servicio de Atención en Salud en la Vejez (a partir de los 60 años) en la IPS Miguel Arcángel está enfocado en brindar cuidados médicos especializados para apoyar el bienestar en la tercera edad. Ofrecemos exámenes de salud regulares, manejo de enfermedades crónicas, y prevención de problemas comunes en esta etapa, como caídas y deterioro cognitivo. Nuestro equipo trabaja para mejorar la calidad de vida mediante un enfoque integral que incluye asesoramiento sobre salud, nutrición y ejercicio, en un entorno que promueve la dignidad y el respeto.
@@ -650,7 +650,7 @@ const Services = () => {
           height={200}
         />
         <div className={styles.contentText}>
-          <h6 className={styles.title}>RUTA INTEGRAL DE ATENCION PARA LA POBLACION MATERNO PERINATAL </h6>
+          <h6 className={styles.title}>RUTA INTEGRAL DE ATENCIÓN PARA LA POBLACION MATERNO PERINATAL </h6>
           <p className={styles.subtitle}>RUTAS DE ATENCION INTEGRAL</p>
           <p className={styles.pText}>
           La Ruta Integral de Atención para la Población Materno-Perinatal en la IPS Miguel Arcángel ofrece cuidados desde la atención preconcepcional hasta el control prenatal, garantizando una experiencia saludable durante el embarazo. Incluye evaluación antes de la concepción y seguimiento regular durante el embarazo para el bienestar de la madre y el bebé.
