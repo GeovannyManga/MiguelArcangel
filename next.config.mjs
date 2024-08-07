@@ -6,6 +6,10 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'healthflex.plethorathemes.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'ipsmiguelarcangel.com',
+      },
     ],
   },
   reactStrictMode: true,
