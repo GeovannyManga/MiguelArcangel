@@ -25,50 +25,6 @@ const Services = () => {
           <h6 className={styles.list}>Una lista de todos nuestros departamentos</h6>
         </div>
       </div>
-      <div id="a1" className={styles.contetServices1}>
-        <Image
-          className={styles.foto1}
-          src="/fotos-servicios/pexels-rdne-6129689.jpg"
-          alt="img"
-          width={800}
-          height={200}
-        />
-        <div className={styles.contentText}>
-          <h6 className={styles.title}>GENERAL ADULTOS</h6>
-          <p className={styles.subtitle}>INTERNACIÓN</p>
-          <p className={styles.pText}>
-          La Unidad de Internación General de Adultos en la IPS Miguel Arcángel ofrece atención médica integral para pacientes adultos que requieren hospitalización. Nuestro equipo de profesionales está comprometido con brindar cuidados de alta calidad y personalizados, asegurando el bienestar y la recuperación de cada paciente en un entorno seguro y confortable. Con tecnología avanzada y un enfoque centrado en el paciente, nos esforzamos por ofrecer un tratamiento eficaz y humanizado.
-          </p>
-          <a
-            href="https://wa.me/+573215937410"
-            className={styles.botom}
-          >
-            Contáctanos
-          </a>
-        </div>
-      </div>
-      <div className={styles.contetServices1}>
-        <Image
-          className={styles.foto1}
-          src="/fotos-servicios/GENERAL-PEDIATRICA.webp"
-          alt="img"
-          width={800}
-          height={200}
-        />
-        <div className={styles.contentText}>
-          <h6 className={styles.title}>GENERAL PEDIÁTRICA</h6>
-          <p className={styles.subtitle}>INTERNACIÓN</p>
-          <p className={styles.pText}>
-          La Unidad de Internación General Pediátrica en la IPS Miguel Arcángel está dedicada a proporcionar atención médica especializada a niños y adolescentes que requieren hospitalización. Nuestro equipo de pediatras, enfermeras y especialistas en salud infantil trabaja en conjunto para asegurar que los pacientes más jóvenes reciban el mejor cuidado posible en un ambiente seguro y acogedor. Con instalaciones adaptadas y tecnología de vanguardia, nos comprometemos a fomentar la recuperación y el bienestar de nuestros pequeños pacientes, siempre con un enfoque cálido y familiar.
-          </p>
-          <a
-            href="https://wa.me/+573215937410"
-            className={styles.botom}
-          >
-            Contáctanos
-          </a>
-        </div>
-      </div>
       <div className={styles.contetServices1}>
         <Image
           className={styles.foto1}
@@ -254,7 +210,7 @@ const Services = () => {
           height={200}
         />
         <div className={styles.contentText}>
-          <h6 className={styles.title}>REUMOLOGÍA</h6>
+          <h6 className={styles.title}>REUMATOLOGÍA</h6>
           <p className={styles.subtitle}>CONSULTA EXTERNA</p>
           <p className={styles.pText}>
           El servicio de Reumatología en la Consulta Externa de la IPS Miguel Arcángel está especializado en el diagnóstico y tratamiento de enfermedades reumáticas que afectan las articulaciones, músculos y tejidos conectivos. Nuestros reumatólogos, con experiencia en el manejo de condiciones como artritis, lupus y fibromialgia, ofrecen un enfoque integral y personalizado para cada paciente. Utilizamos técnicas avanzadas y estrategias de tratamiento innovadoras para aliviar el dolor, mejorar la movilidad y promover la calidad de vida, siempre en un entorno profesional y empático.
