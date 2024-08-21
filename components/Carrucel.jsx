@@ -1,10 +1,16 @@
 "use client";
 import Image from "next/image";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useMemo } from "react";
 import styles from "../styles/carrucel.module.css";
 
 export default function Carrucel() {
-  const imgArr = ["/img/doctor_blue.jpg", "/img/doctor_white.jpg", "/img/slider-2.jpg"];
+  const imgArr = useMemo(() => [
+    "/img/doctor_blue.jpg",
+    "/img/doctor_white.jpg",
+    "/img/slider-2.jpg",
+    "/img/doctor_blue.jpg"
+  ], []);
+
   const contentRef = useRef(null);
 
   useEffect(() => {
@@ -19,14 +25,14 @@ export default function Carrucel() {
         setTimeout(() => {
           content.style.transition = "transform 1s ease";
           content.style.transform = `translateX(-100%)`;
-        }, 50); // Permite que el navegador refluja y aplique la transición
+        }, 50); // Permite que el navegador refluya y aplique la transición
       } else {
         content.style.transform = `translateX(-${index * 100}%)`;
       }
       index++;
     };
 
-    const intervalId = setInterval(rotateImages, 4000);
+    const intervalId = setInterval(rotateImages, 10000); // Cambiado a 5000ms para un cambio más lento
 
     return () => clearInterval(intervalId);
   }, [imgArr]);

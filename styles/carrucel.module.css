@@ -8,7 +8,7 @@
 .contentRotation {
     display: flex;
     width: 100%;
-    transition: transform 1s ease;
+    transition: transform 1s ease-in-out; /* Suavizar la transición */
 }
 
 .imgContainer {
