@@ -1,42 +1,50 @@
 "use client";
 import Image from "next/image";
+import { useEffect, useRef } from "react";
 import styles from "../styles/carrucel.module.css";
 
 export default function Carrucel() {
   const imgArr = ["/img/doctor_blue.jpg", "/img/doctor_white.jpg", "/img/slider-2.jpg"];
+  const contentRef = useRef(null);
+
+  useEffect(() => {
+    const content = contentRef.current;
+    let index = 0;
+
+    const rotateImages = () => {
+      if (index >= imgArr.length) {
+        index = 0;
+        content.style.transition = "none"; // Quita la animación para reiniciar
+        content.style.transform = `translateX(0%)`;
+        setTimeout(() => {
+          content.style.transition = "transform 1s ease";
+          content.style.transform = `translateX(-100%)`;
+        }, 50); // Permite que el navegador refluja y aplique la transición
+      } else {
+        content.style.transform = `translateX(-${index * 100}%)`;
+      }
+      index++;
+    };
+
+    const intervalId = setInterval(rotateImages, 4000);
+
+    return () => clearInterval(intervalId);
+  }, [imgArr]);
 
   return (
     <div className={styles.divCarrucelContainer}>
-      <div className={styles.contentRotation}>
-        <Image
-          className={styles.imgCarrucel}
-          src={imgArr[0]}
-          alt="foto"
-          width={1080}
-          height={1000}
-        />
-        <Image
-          className={styles.imgCarrucel}
-          style={{ transform: 'scaleX(-1)' }}
-          src={imgArr[1]}
-          alt="foto"
-          width={1080}
-          height={1000}
-        />
-        <Image
-          className={styles.imgCarrucel}
-          src={imgArr[2]}
-          alt="foto"
-          width={1080}
-          height={1000}
-        />
-        <Image
-          className={styles.imgCarrucel}
-          src={imgArr[0]}
-          alt="foto"
-          width={1080}
-          height={1000}
-        />
+      <div ref={contentRef} className={styles.contentRotation}>
+        {imgArr.map((src, idx) => (
+          <div key={idx} className={styles.imgContainer}>
+            <Image
+              className={styles.imgCarrucel}
+              src={src}
+              alt={`Carrucel image ${idx}`}
+              width={1080}
+              height={1000}
+            />
+          </div>
+        ))}
       </div>
       <div className={styles.publish}>
         <span className={styles.titlePublish}>PLANES FAMILIARES</span>
